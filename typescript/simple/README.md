@@ -65,3 +65,16 @@ In Fuji X web app you can use a UI to view data stored in a connected database.
 ## 🏄‍♂️ Explorer 
 
 Use "Explorer" to send GraphQL queries to the Fuji X endpoint.
+
+For example, to delete all posts and users run this mutation:
+
+```
+mutation {
+  deleteManyPost {
+    count
+  }
+  deleteManyUser {
+    count
+  }
+}
+```
