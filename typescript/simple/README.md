@@ -15,8 +15,8 @@ Here is a video that shows up how to set up and launch this example — will be 
 1. Clone the repository.
 2. Go to `fujix-examples/typescript/simple` folder and run `npm install`.
 3. Run `npm run generate` command to generate a client for your Fuji X endpoint.
-4. CLI will ask you for the endpoint URL and token. Get them on the "🚀 Endpoint" page in Fuji X web app.
-5. Also, set URL and token in yours in `index.ts`.
+4. CLI will ask you for the endpoint URL and API key. Get them on the "🚀 Endpoint" page in Fuji X web app.
+5. Also, set URL and API key in yours in `index.ts`.
 6. Run `npm start` command to launch the script.
 
 ## Code overview

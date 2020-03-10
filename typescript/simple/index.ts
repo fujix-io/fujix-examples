@@ -2,7 +2,7 @@ import FujiX from './generated/fujix';
 
 const fujix = new FujiX({
   url: 'https://SLUG.fujix.io',
-  authorization: 'TOKEN'
+  apiKey: 'TOKEN'
 });
 
 const main = async () => {

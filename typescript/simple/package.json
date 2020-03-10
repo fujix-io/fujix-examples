@@ -8,13 +8,13 @@
     "generate": "fujix generate"
   },
   "keywords": [],
-  "author": "Fuji X",
+  "author": "Fuji X", 
   "license": "MIT",
   "dependencies": {
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5"
   },
   "devDependencies": {
-    "@fujix/cli": "latest"
+    "@fujix/cli": "^0.1.11"
   }
 }
