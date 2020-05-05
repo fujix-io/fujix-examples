@@ -1,10 +1,12 @@
 {
   "name": "fujix-graphql-nexus",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --no-notify --respawn --transpile-only src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
     "generate": "source .env && fujix generate -t $FUJIX_API_KEY -u $FUJIX_PROJECT_URL"
   },
   "dependencies": {
