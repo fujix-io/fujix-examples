@@ -14,9 +14,9 @@ const main = async () => {
         role: 'ADMIN',
         posts: {
           create: [
-            { title: 'Notes from Underground' },
-            { title: 'Crime and Punishment' },
-            { title: 'Demons' },
+            { title: 'Notes from Underground', published: true },
+            { title: 'Crime and Punishment', published: true },
+            { title: 'Demons', published: true },
           ],
         },
       },
@@ -43,6 +43,7 @@ const main = async () => {
     const newPost = await fujix.mutation.createOnePost({
       data: {
         title: 'The Idiot',
+        published: true,
         author: {
           connect: { id: user.id },
         },
