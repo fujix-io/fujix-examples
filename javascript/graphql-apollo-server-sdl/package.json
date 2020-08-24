@@ -1,0 +1,18 @@
+{
+  "name": "fujix-js-graphql-apollo-server-sdl",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "generate": "fujix generate",
+    "start": "node src/index.js"
+  },
+  "author": "Fuji X",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.16.1",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "@fujix/cli": "^0.1.41"
+  }
+}
