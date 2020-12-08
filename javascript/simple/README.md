@@ -17,7 +17,7 @@ Here is a video that shows up how to set up and launch this example — will be 
 3. Run `npm run generate` command to generate a client for your Fuji X endpoint.
 4. CLI will ask you for the endpoint URL and API key. Get them on the "🚀 Endpoint" page in Fuji X web app.
 5. Also, set URL and API key in yours in `index.js`.
-6. Run `npm start` command to launch the script.
+6. Run `npm run start` command to launch the script.
 
 ## Code overview
 

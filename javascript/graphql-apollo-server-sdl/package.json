@@ -9,10 +9,10 @@
   "author": "Fuji X",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.16.1",
-    "graphql": "^15.3.0"
+    "apollo-server": "^2.19.0",
+    "graphql": "^15.4.0"
   },
   "devDependencies": {
-    "@fujix/cli": "^0.1.41"
+    "@fujix/cli": "^0.1.50"
   }
 }

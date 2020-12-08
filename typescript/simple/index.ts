@@ -25,7 +25,7 @@ const main = async () => {
   
     const posts = await fujix.query.findManyPost({
       where: { author: { id: { equals: user.id } } },
-      orderBy: { title: 'asc' },
+      orderBy: [{ title: 'asc' }],
       select: {
         id: true,
         title: true,

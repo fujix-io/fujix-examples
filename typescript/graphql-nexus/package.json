@@ -10,8 +10,8 @@
     "generate": "source .env && fujix generate -t $FUJIX_API_KEY -u $FUJIX_PROJECT_URL"
   },
   "dependencies": {
-    "@fujix/cli": "^0.1.29",
-    "apollo-server": "^2.12.0",
+    "@fujix/cli": "^0.1.50",
+    "apollo-server": "^2.19.0",
     "dotenv": "^8.2.0",
     "nexus": "^0.12.0"
   },
