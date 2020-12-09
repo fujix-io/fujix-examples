@@ -16,7 +16,7 @@ This example implements Apollo GraphQL server with Node.js built up using [SDL-f
 4. Run `npm run generate` command to generate a client for your Fuji X endpoint.
 5. CLI will ask you for the endpoint URL and API key. Get them on the "🚀 Endpoint" page in Fuji X web app.
 6. Also, set URL and API key in yours in `index.js`.
-7. Run `npm run dev` command to launch the script.
+7. Run `npm start` command to launch the script.
 
 ## Example operations
 

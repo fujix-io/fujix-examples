@@ -10,6 +10,6 @@
   "author": "Fuji X",
   "license": "MIT",
   "devDependencies": {
-    "@fujix/cli": "^0.1.41"
+    "@fujix/cli": "^0.1.50"
   }
 }
